@@ -1,6 +1,13 @@
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
     height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1718068838055-3a8311f0e8ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8)
+    background-image: url(https://images.unsplash.com/photo-1717966313670-a42f6908be92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 h1{
     font-style: bold;
@@ -13,10 +20,13 @@ h5{
     color: coral;
 }
 h2{
+   
+    color: coral;
     font-style: bold;
 
     text-align: center;
 }
 h4{
+   color: coral;
     text-align: center;
 }
